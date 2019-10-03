@@ -7,7 +7,7 @@ LIBPATH = ""
 LIBPATH_env = "LD_LIBRARY_PATH"
 
 # Relative path to `libkeyutils`
-const libkeyutils_splitpath = ["lib", "libkeyutils.so.1"]
+const libkeyutils_splitpath = ["lib", "libkeyutils.so"]
 
 # This will be filled out by __init__() for all products, as it must be done at runtime
 libkeyutils_path = ""
