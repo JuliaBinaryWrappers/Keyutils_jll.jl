@@ -1,6 +1,6 @@
 name = "Keyutils_jll"
 uuid = "c2be6516-4eb7-57db-a4a4-4d4eb801fdbe"
-version = "1.6.1+0"
+version = "1.6.1+1"
 
 [deps]
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
