@@ -1,81 +1,83 @@
 [[Keyutils]]
-arch = "armv7l"
-git-tree-sha1 = "7af2d3e8bfe279b374beb3de0a93f237457eac64"
+arch = "aarch64"
+git-tree-sha1 = "f08e78cee441d9edad9c07bd61f15f72ac094da2"
 libc = "glibc"
 os = "linux"
 
     [[Keyutils.download]]
-    sha256 = "885eed8d65e9b10165d1e9e3a742d04d4233c9484a5c513bb71199b7a55b9383"
-    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+1/Keyutils.v1.6.1.arm-linux-gnueabihf.tar.gz"
+    sha256 = "77ac3a7210757bbfa880550be8b33a8c3f76b50743a75727eaf5bc32d5ca6a48"
+    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+2/Keyutils.v1.6.1.aarch64-linux-gnu.tar.gz"
 [[Keyutils]]
 arch = "aarch64"
-git-tree-sha1 = "f9366f411ffe913d175f195df59a625fc294b02f"
+git-tree-sha1 = "0032e27e531542353375d8ff1580d096cc8250d6"
 libc = "musl"
 os = "linux"
 
     [[Keyutils.download]]
-    sha256 = "f9fe19869a669a02c45b2ea1659b1647483ee6383ec8c77813100bf9d4154b11"
-    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+1/Keyutils.v1.6.1.aarch64-linux-musl.tar.gz"
+    sha256 = "e454e2162c0aaaecb8211a0535668a898ba08079d976aa6018837a91757cf683"
+    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+2/Keyutils.v1.6.1.aarch64-linux-musl.tar.gz"
 [[Keyutils]]
-arch = "i686"
-git-tree-sha1 = "49e50bedb0be5072478c6486fa90d3faeecacd18"
-libc = "musl"
-os = "linux"
-
-    [[Keyutils.download]]
-    sha256 = "552cd0d8f49973903c689699719de580756ad8bf07f1e44e6b0f64cad6cf330a"
-    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+1/Keyutils.v1.6.1.i686-linux-musl.tar.gz"
-[[Keyutils]]
-arch = "i686"
-git-tree-sha1 = "a6eb5180b52ea7afde5e570509d5891db353b90f"
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "303997dec69b15430e4eace3769233a6a6d851d4"
 libc = "glibc"
 os = "linux"
 
     [[Keyutils.download]]
-    sha256 = "bd5b8299e02d4fa8fa604bb7e6243716930065e8f17ccdbc3ace6bc74e2946a9"
-    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+1/Keyutils.v1.6.1.i686-linux-gnu.tar.gz"
+    sha256 = "8eb549b92d9a06fc113bba225753c62465ea0ec6890e7ae54548a3192ddac89f"
+    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+2/Keyutils.v1.6.1.armv7l-linux-gnueabihf.tar.gz"
+[[Keyutils]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "952474bb5e9ee9b1a1ffde1704eec0317651158a"
+libc = "musl"
+os = "linux"
+
+    [[Keyutils.download]]
+    sha256 = "9d7f24a7b7520bede1169454c71e664d10728719710dccf36c44dedf573f0f2d"
+    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+2/Keyutils.v1.6.1.armv7l-linux-musleabihf.tar.gz"
+[[Keyutils]]
+arch = "i686"
+git-tree-sha1 = "3202b341cdbf96aaf37bbaae5955c4fe8d09ae30"
+libc = "glibc"
+os = "linux"
+
+    [[Keyutils.download]]
+    sha256 = "a0117b5131abfff60519c721edfdd5fb12dc54cc6f3494650ad085c52177747b"
+    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+2/Keyutils.v1.6.1.i686-linux-gnu.tar.gz"
+[[Keyutils]]
+arch = "i686"
+git-tree-sha1 = "0b2f794279316764c7b4e0bb72c005fa543d239f"
+libc = "musl"
+os = "linux"
+
+    [[Keyutils.download]]
+    sha256 = "d14c3acb8cade9ea3a4cc09162a700754b36b6ab3b03bead878b5c1860cc23c2"
+    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+2/Keyutils.v1.6.1.i686-linux-musl.tar.gz"
 [[Keyutils]]
 arch = "powerpc64le"
-git-tree-sha1 = "8786b5118eb9aa32c00af462a16b52c9110d7eb0"
+git-tree-sha1 = "778b390f98f1129ae218f6c9b87c6051bb37c864"
 libc = "glibc"
 os = "linux"
 
     [[Keyutils.download]]
-    sha256 = "37ee363f1bab6e1e03e1ec36f76af84466efd30806752e7128c82f93c6f19d1f"
-    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+1/Keyutils.v1.6.1.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "dee45520abe06959820ef078ba0b508ddd9775e40f2b66f409d36994f4d02164"
+    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+2/Keyutils.v1.6.1.powerpc64le-linux-gnu.tar.gz"
 [[Keyutils]]
-arch = "armv7l"
-git-tree-sha1 = "bb341bec3e5bd7e1013a6881ec401d238d6f3035"
+arch = "x86_64"
+git-tree-sha1 = "f88e1d12b4915425efaa6d0f20d76d304d8eda71"
+libc = "glibc"
+os = "linux"
+
+    [[Keyutils.download]]
+    sha256 = "017859368d01bfb930508a92f7eb0bc6b613b9e48e7f4f55de20da07b4658819"
+    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+2/Keyutils.v1.6.1.x86_64-linux-gnu.tar.gz"
+[[Keyutils]]
+arch = "x86_64"
+git-tree-sha1 = "e82eb2771005a1f39f6688a908277f38064fb374"
 libc = "musl"
 os = "linux"
 
     [[Keyutils.download]]
-    sha256 = "61511f2418c769b7a9100fd43869568dd84db2eb4ed0aa247bd25094d35390fa"
-    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+1/Keyutils.v1.6.1.arm-linux-musleabihf.tar.gz"
-[[Keyutils]]
-arch = "aarch64"
-git-tree-sha1 = "270f093fc0905ad3f06aa74279afe30a1f4a9b82"
-libc = "glibc"
-os = "linux"
-
-    [[Keyutils.download]]
-    sha256 = "a88fe957ebd19e674b476b551dcf74bf8586613149d3013c90d7bc52342c023d"
-    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+1/Keyutils.v1.6.1.aarch64-linux-gnu.tar.gz"
-[[Keyutils]]
-arch = "x86_64"
-git-tree-sha1 = "f25884fdf42fb6e34f903a6d8510ec1f0eb36269"
-libc = "glibc"
-os = "linux"
-
-    [[Keyutils.download]]
-    sha256 = "d69ff41c5a9160cf8507d4455519d957fbe490aa57fa4cf64df570c15532dda5"
-    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+1/Keyutils.v1.6.1.x86_64-linux-gnu.tar.gz"
-[[Keyutils]]
-arch = "x86_64"
-git-tree-sha1 = "f99dac4c7cd7ada73ed3145854dff7049bed7010"
-libc = "musl"
-os = "linux"
-
-    [[Keyutils.download]]
-    sha256 = "299ca410e0d8dbee0e22f4968c82cdb9ee771572ce370cd425021803df8b4916"
-    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+1/Keyutils.v1.6.1.x86_64-linux-musl.tar.gz"
+    sha256 = "83f8d8b52fe2b47d3dfbf92015057adf586e4f4f12b0996f958afea02af49f42"
+    url = "https://github.com/JuliaBinaryWrappers/Keyutils_jll.jl/releases/download/Keyutils-v1.6.1+2/Keyutils.v1.6.1.x86_64-linux-musl.tar.gz"
